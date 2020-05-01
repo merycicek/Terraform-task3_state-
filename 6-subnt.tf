@@ -1,4 +1,4 @@
-resource "aws_subnet" "main" {
+resource "aws_subnet" "main_1" {
     count = 3
     vpc_id = "${aws_vpc.myperfect_vpc.id}"
     cidr_block = "10.0.${count.index+1}.0/24"
