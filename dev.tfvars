@@ -11,9 +11,9 @@ az2          = "b"
 az3          = "c"
 
 
-private_cidr1 = "10.0.3.0/24"
-private_cidr2 = "10.0.4.0/24"
-private_cidr3 = "10.0.5.0/24"
+private_cidr1 = "10.0.1.0/24"
+private_cidr2 = "10.0.2.0/24"
+private_cidr3 = "10.0.3.0/24"
 
 
 tags = {
